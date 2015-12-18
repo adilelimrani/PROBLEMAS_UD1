@@ -1,0 +1,29 @@
+// vamos a hacer un programa que sume, reste, multiplique y divida
+// dos numeros reales
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	double primero,segundo,suma,resta,mult,div;
+
+	cout << "introduzca primer numero: ";
+	cin >> primero;
+	cout << "introduzca segundo numero: ";
+	cin >> segundo;
+
+	suma=primero+segundo;
+	resta=primero-segundo;
+	mult=primero*segundo;
+	div=primero/segundo;
+
+	cout << primero << "+" << segundo << "=" << suma << endl;
+	cout << primero << "-" << segundo << "=" << resta << endl;
+	cout << primero << "*" << segundo << "=" << mult << endl;
+	cout << primero << "/" << segundo << "=" << div << endl;
+
+	return 0;
+}
